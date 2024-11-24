@@ -1,0 +1,40 @@
+/* src/styles/Checkout.css */
+.checkout-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.cart-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart-items li {
+  margin-bottom: 10px;
+}
+
+.payment-form {
+  margin-top: 20px;
+}
+
+.payment-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.pay-now-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.payment-success {
+  margin-top: 20px;
+  color: green;
+  font-weight: bold;
+}
